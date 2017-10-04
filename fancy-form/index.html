@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link href='https://fonts.googleapis.com/css?family=Spicy+Rice' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="validation.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+	<div class="legend">
+		<span class="number">1</span> 
+		<span class="header-word">Candiate Info</span>
+	</div>
+	
+	<input type="text" name="fullName" placeholder="  Your Name *">
+	<input type="email" name="email" placeholder="  Your Email *">
+	<textarea name="about" placeholder="  About yourself"></textarea>
+	<div>
+		<label>Interests:</label>
+		<select name="" id="selectList">
+			<optgroup label="Indoors">
+				<option value="fishkeeping">Fishkeeping</option>
+				<option value="reading">Reading</option>
+				<option value="boxing">Boxing</option>
+				<option value="debate">Debate</option>
+				<option value="gaming">Gaming</option>
+				<option value="snooker">Snooker</option>
+				<option value="other_indoor">Other</option>
+			</optgroup>
+			<optgroup label="Outdoors">
+				<option value="football">Football</option>
+				<option value="swimming">Swimming</option>
+				<option value="fishing">Fishing</option>
+				<option value="climbing">Climbing</option>
+				<option value="cycling">Cycling</option>
+				<option value="other_outdoor">Other</option>	
+			</optgroup>
+		</select>
+	</div>
+	<input type="submit" value="Apply">
+</div>
+
+</body>
+</html>
