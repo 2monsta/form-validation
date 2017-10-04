@@ -1,0 +1,28 @@
+.section{
+	font-size: 30px;
+	color: #2A88AD;
+}
+.header{
+	padding-left: 30px;
+}
+span{
+	position: relative;
+	bottom: -15px;
+	text-align: center;
+	right: 20px;
+}
+.form-wrapper{
+	padding-left: 50px;
+}
+input{
+	border-radius: 5px;
+	margin-left: 20px;
+	outline: none;
+	width: 100%;
+}
+label{
+	width: 80%;
+}
+.submit{
+	width: 80%;
+}

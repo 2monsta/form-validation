@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validating Forms</title>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script_My_Own.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles_My_Own.css">
+
+
+</head>
+<body>
+
+	<form class="sign-up-form">
+		<div class="header">
+			<h1>Sign up now!</h1>
+			<p>Sign up for the dev job of your dreams!</p>
+		</div>
+
+		<div class="section">
+			<span>1</span> First Name & Address
+		</div>
+
+		<div class="form-wrapper">
+			<div class="full-name-error error">Your name is too short</div>
+			<label>Your full name<input type="text" class="fullName" placeholder="Your Full Name">
+			</label>
+		</div>
+
+		<div class="form-wrapper">
+			<div class="error address-error"></div>
+			<label>Address<input type="text" name="address" class="address" placeholder="Your Address">
+			</label>
+		</div>
+
+		<div class="section">
+			<span>2</span>Contact Info
+		</div>
+
+		<div class="form-wrapper">
+			<div class="error email-error"></div>		
+			<label>Email<input type="email" class="email" data-field="email" placeholder="Your email address">
+			</label>
+		</div>
+		<div class="form-wrapper">
+			<div class="error phone-error"></div>		
+			<label>Phone<input type="text" class="phone" placeholder="Your Phone Number">
+			</label>
+		</div>
+
+		<div class="section">
+			<span>3</span>Password
+		</div>
+		<div class="form-wrapper">
+			<div class="error password-error">
+				<!-- innerHTML is here -->
+				<!-- .html() is here -->
+			</div>
+			<label>Password<input type="password" class="password" placeholder="Password must be 6 characters">
+			</label>
+		</div>
+		<div class="form-wrapper">
+			<div class="error password2-error"></div>		
+			<label>Password Confirmation<input type="password" class="password2" placeholder="Confrim password">
+			</label>
+		</div>
+
+		<div class="section">		
+			<span>4</span>Skills
+		</div>
+		<div class="form-wrapper">
+			<div class="error mySkills-error"></div>		
+			<label>My Tech Skills<input type="text" class="mySkills" placeholder="Enter your skills">
+			</label>
+		</div>
+		<div class="form-wrapper">
+			<div class="error years-error"></div>		
+			<label>Years of Experience<input type="number" class="years" placeholder="Years of XP">
+			</label>
+		</div>
+
+		<div class="form-wrapper">
+			<input type="submit" class="submit" value="Get me a job!">
+			<input type="checkbox" class="privacy">
+			<div class="col-xs-12">
+				I agree to the terms and policies
+			</div>
+		</div>
+	</form>
+
+</body>
+</html>
