@@ -40,7 +40,7 @@ textarea{
 	border-radius: 5px 5px 0 5px;
 	border: 1px solid #F4F7F8;
 	margin-top: 20px;
-	height: 25px;
+	height: 30px;
 	background-color: #E8EEEF;
 }
 label{
@@ -61,3 +61,6 @@ input[type ="submit"]{
 /* option{
 	color: #CA9427;
 } */
+.select-wrapper{
+	margin-bottom: 20px;
+}
